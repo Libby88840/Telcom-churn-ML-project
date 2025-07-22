@@ -1,4 +1,5 @@
-![](file:///C:/Users/User/AppData/Local/Temp/msohtmlclip1/01/clip_image002.jpg)
+<img width="626" height="272" alt="image" src="https://github.com/user-attachments/assets/34d0806c-c1b6-4c44-9d02-c1d9b894cdfb" />
+
 
 **Telecom churn prediction project CRISP- DM Approach using machine learning.**
 
@@ -41,13 +42,15 @@ Checking for correlations on numeric features showed strong positive correlation
 
 *   Moderate positive correlation between day and evening minutes suggests that heavy daytime users are often heavy evening users.
 
-![](file:///C:/Users/User/AppData/Local/Temp/msohtmlclip1/01/clip_image004.jpg)
+<img width="625" height="549" alt="image" src="https://github.com/user-attachments/assets/5cb3d5ae-6b6b-430c-b04f-1fd562b1cbf2" />
+
 
 **Checking how overall usage distributes differently for churners vs. non-churners.**
 
 This comparison reveals behavioral patterns that indicate dissatisfaction or disengagement. By examining usage distribution, we can identify thresholds where decreased (or sometimes increased) activity signals a higher risk of churn.
 
-![](file:///C:/Users/User/AppData/Local/Temp/msohtmlclip1/01/clip_image006.png)
+<img width="625" height="373" alt="image" src="https://github.com/user-attachments/assets/932814fe-c27c-4d9f-8ffb-e36b0e31c8f8" />
+
 
 The density-histogram shows how overall usage distributes differently for churners vs. non-churners.
 
@@ -84,7 +87,7 @@ Four models were trained and compared with the target variable as churn.
 
 **Model Evaluation and Performance**
 
-![](file:///C:/Users/User/AppData/Local/Temp/msohtmlclip1/01/clip_image008.jpg)
+<img width="625" height="493" alt="image" src="https://github.com/user-attachments/assets/ef859656-f8bd-4963-b368-2943e2d87b22" />
 
 **ROC-AUC Results Summary**
 
@@ -99,15 +102,19 @@ Ensemble methods (Random Forest and XGBoost) outperform simpler models due to th
 
 **Confusion Matrices**
 
-![](file:///C:/Users/User/AppData/Local/Temp/msohtmlclip1/01/clip_image010.jpg)
+<img width="520" height="377" alt="image" src="https://github.com/user-attachments/assets/1773e922-4db4-408e-8fc4-0e349824d059" />
 
-![](file:///C:/Users/User/AppData/Local/Temp/msohtmlclip1/01/clip_image012.jpg)
+<img width="538" height="371" alt="image" src="https://github.com/user-attachments/assets/2cd74e93-3eb6-4202-a799-9f1c9419201c" />
 
-![](file:///C:/Users/User/AppData/Local/Temp/msohtmlclip1/01/clip_image014.jpg)
 
-![](file:///C:/Users/User/AppData/Local/Temp/msohtmlclip1/01/clip_image015.png)
+<img width="491" height="388" alt="image" src="https://github.com/user-attachments/assets/cba5d4f9-08c4-456d-8423-c3e8e8889614" />
 
-![](file:///C:/Users/User/AppData/Local/Temp/msohtmlclip1/01/clip_image017.jpg)
+
+<img width="477" height="387" alt="image" src="https://github.com/user-attachments/assets/b4e68d53-9303-4bca-bd83-a29b7032bc4d" />
+g)
+
+<img width="558" height="456" alt="image" src="https://github.com/user-attachments/assets/4121a4c7-f810-4bcb-8ef8-c7f7d9aa3b65" />
+
 
 **What was observed across models:**
 
@@ -149,7 +156,8 @@ This makes it a reliable model when false positives are more costly than false n
 
 **Feature Importance**
 
-![](file:///C:/Users/User/AppData/Local/Temp/msohtmlclip1/01/clip_image019.jpg)
+<img width="567" height="457" alt="image" src="https://github.com/user-attachments/assets/ff64fee4-8540-4ead-b6bd-365cc5339ebe" />
+
 
  **Top predictors often included:**
 

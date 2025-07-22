@@ -138,7 +138,7 @@ Ensemble methods (Random Forest and XGBoost) outperform simpler models due to th
 
 ~ Tended to have lower recall—missing some churners—but when it did predict churn, it was usually accurate (i.e., higher precision).
 
-This makes it a reliable model when false positives are more costly than false negatives.
+~ This makes it a reliable model when false positives are more costly than false negatives.
 
 **Interpretation:**
 
@@ -165,7 +165,7 @@ This makes it a reliable model when false positives are more costly than false n
 *   High service usage (especially during the day), frequent support calls, and international plan activation are consistent churn signals.
 *   These features help businesses prioritize interventions for at-risk customers.
 
-These mirror industry findings where usage and service interaction metrics are key churn indicators.
+~ These mirror industry findings where usage and service interaction metrics are key churn indicators.
 
  **Key Insights**
 
@@ -173,13 +173,13 @@ These mirror industry findings where usage and service interaction metrics are k
 
 2\. Strongest predictors:
 
-   - Total usage minutes
+   - Total usage minutes.
 
-   - Number of customer service calls
+   - Number of customer service calls.
 
-   - Account tenure
+   - Account tenure.
 
-   - Billing/charge metrics & international plan usage
+   - Billing/charge metrics & international plan usage.
 
 3\. Confusion matrices show XGBoost and Random Forest balance catching churners while avoiding false alarms.
 
@@ -210,3 +210,5 @@ These mirror industry findings where usage and service interaction metrics are k
 *   Feature analysis helps prioritize factors to improve customer experience and retention.
 *   Telecom churn studies often rely on a single dataset (like this), which may not reflect broader customer behaviors. Models trained on such data risk limited generalization and branch-specific bias.
 *   Our dataset didn't include data like customer social network interactions or real-time behavior—features shown to boost model performance significantly (AUC increase from ~0.84 to 0.93 in some studies). This implies our models may miss crucial churn signals outside usage and billing metrics.
+
+If you have any suggestions or inquiries on how to improve this analysis, you can connect with me on Linkedin https://surl.li/vvlpzk. I am open to feedback and would love to discuss ways to refine and enhance the analysis further.
